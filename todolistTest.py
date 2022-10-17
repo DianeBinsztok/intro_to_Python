@@ -23,6 +23,6 @@ while todoList!=[]:
         if todoList != []:
             done = input("Pour marquer une tâche comme finie, tapez son numero.")
             doneIndex = int(done)
-if todoList==[]:
+else:
     print("Félicitations, vous avez accompli toutes vos tâches.")
 
